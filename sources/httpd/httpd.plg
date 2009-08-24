@@ -1,0 +1,54 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: httpd - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Debug/httpd.res" /d "_DEBUG" "C:\Documents and Settings\Administrator\Desktop\Source code\httpd\httpd.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPDC.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/httpd.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Documents and Settings\Administrator\Desktop\Source code\http_server.cpp"
+"C:\Documents and Settings\Administrator\Desktop\Source code\http_util.cpp"
+"C:\Documents and Settings\Administrator\Desktop\Source code\httpd\main.cpp"
+"C:\Documents and Settings\Administrator\Desktop\Source code\gutil.cpp"
+"C:\Documents and Settings\Administrator\Desktop\Source code\gserver.cpp"
+"C:\Documents and Settings\Administrator\Desktop\Source code\gsocket.cpp"
+"C:\Documents and Settings\Administrator\Desktop\Source code\gwinsock.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPDC.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPDD.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/httpd.pdb" /debug /machine:I386 /out:"Debug/httpd.exe" /pdbtype:sept 
+".\Debug\http_server.obj"
+".\Debug\http_util.obj"
+".\Debug\main.obj"
+".\Debug\gutil.obj"
+".\Debug\gserver.obj"
+".\Debug\gsocket.obj"
+".\Debug\gwinsock.obj"
+".\Debug\httpd.res"
+"..\..\..\..\..\Program Files\Microsoft Visual Studio\VC98\Lib\WSOCK32.LIB"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPDD.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+http_server.cpp
+http_util.cpp
+main.cpp
+gutil.cpp
+gserver.cpp
+gsocket.cpp
+gwinsock.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+httpd.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
